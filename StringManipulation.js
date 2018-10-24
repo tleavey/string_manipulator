@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 class StringManipulation {
   constructor(paragraph) {
@@ -47,7 +47,7 @@ class StringManipulation {
     return !!Object.keys(repeatedWords).length &&
       repeatedWords.constructor === Object
       ? repeatedWords
-      : "No repeated words";
+      : 'No repeated words';
   }
 }
 
