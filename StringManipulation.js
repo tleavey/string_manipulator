@@ -50,3 +50,5 @@ class StringManipulation {
       : "No repeated words";
   }
 }
+
+module.exports = StringManipulation;
