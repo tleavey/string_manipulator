@@ -34,8 +34,8 @@ result = StringManipulator.hasAllUniqueChars('Hello, my friend. My name is Tim. 
 console.log(result);
 
 // Expected output: false
-
-
+```
+```
 Example 2:
 
 let result = StringManipulator.hasAllUniqueChars('Dogs are fun.');
