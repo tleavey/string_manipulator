@@ -1,6 +1,6 @@
 "use strict";
 
-class StringManipulation {
+class StringManipulator {
   constructor(paragraph) {
     this.paragraph = paragraph;
   }
@@ -77,4 +77,4 @@ class StringManipulation {
   }
 }
 
-module.exports = StringManipulation;
+module.exports = StringManipulator;
