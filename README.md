@@ -10,7 +10,7 @@ JS class that manipulates strings
 ## Examples
 ### removePunctuation
 ```
-let result = StringManipulation.removePunctuation('Hello, my friend. My name is Tim. What is your name?');
+let result = StringManipulator.removePunctuation('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
 
 // Expected output: Hello my friend My name is Tim What is your name
@@ -19,7 +19,7 @@ console.log(result);
 
 ### repeatedWords
 ```
-let result = StringManipulation.repeatedWords('Hello, my friend. My name is Tim. What is your name?');
+let result = StringManipulator.repeatedWords('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
 
 // Expected output: { my: 2, name: 2, is: 2 }
@@ -30,7 +30,7 @@ console.log(result);
 ```
 Example 1:  
 
-result = StringManipulation.hasAllUniqueChars('Hello, my friend. My name is Tim. What is your name?');
+result = StringManipulator.hasAllUniqueChars('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
 
 // Expected output: false
@@ -38,7 +38,7 @@ console.log(result);
 
 Example 2:
 
-let result = StringManipulation.hasAllUniqueChars('Dogs are fun.');
+let result = StringManipulator.hasAllUniqueChars('Dogs are fun.');
 console.log(result);
 
 // Expected output: true
