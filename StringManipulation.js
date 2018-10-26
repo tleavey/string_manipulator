@@ -27,9 +27,12 @@ class StringManipulation {
       throw new Error("repeatedWords() only accepts a string");
 
     let words = this.removePunctuation(paragraph);
-    words = words.toLowerCase();
     let wordCounts = {};
     let repeatedWords = {};
+    
+    words = words.toLowerCase();
+    words = words.split(' ');
+    
     // Counts all words
     for (let i = 0; i < words.length; i++) {
       if (wordCounts[words[i]]) {
@@ -59,7 +62,7 @@ class StringManipulation {
       throw new Error("hasAllUniqueChars() only accepts a string");
 
     let visited = {};
-    let allChars = paragraph.replace(" ", "");
+    let allChars = paragraph.replace(' ', '');
     // These next two lines would do the same thing as above
     // let allChars = paragraph.replace( /\s/g, '');
     // let allChars = paragraph.split(' ').join('');
