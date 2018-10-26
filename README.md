@@ -1,4 +1,4 @@
-# string_manipulator
+# StringManipulator
 JS class that manipulates strings
 
 ## Static Methods  
