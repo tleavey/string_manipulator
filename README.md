@@ -8,7 +8,7 @@ JS class that manipulates strings
 
 
 ## Examples
-removePunctuation
+### removePunctuation
 ```
 let result = StringManipulation.removePunctuation('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
@@ -16,7 +16,8 @@ console.log(result);
 // Expected output: Hello my friend My name is Tim What is your name
 ```
 
-repeatedWords
+
+### repeatedWords
 ```
 let result = StringManipulation.repeatedWords('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
@@ -24,7 +25,8 @@ console.log(result);
 // Expected output: { my: 2, name: 2, is: 2 }
 ```
 
-hasAllUniqueChars
+
+### hasAllUniqueChars
 ```
 Example 1:  
 
