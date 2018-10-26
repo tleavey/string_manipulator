@@ -56,7 +56,7 @@ class StringManipulation {
   /* Output: boolean */
   static hasAllUniqueChars(paragraph) {
     if (typeof paragraph !== "string")
-      throw new Error("repeatedWords() only accepts a string");
+      throw new Error("hasAllUniqueChars() only accepts a string");
 
     let visited = {};
     let allChars = paragraph.replace(" ", "");
