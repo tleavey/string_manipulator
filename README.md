@@ -38,8 +38,8 @@ console.log(result);
 
 Example 2:
 
-result = StringManipulation.hasAllUniqueChars('');
+let result = StringManipulation.hasAllUniqueChars('Dogs are fun.');
 console.log(result);
 
-// Expected output: false
+// Expected output: true
 ```

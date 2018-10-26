@@ -6,7 +6,7 @@ console.log(result);
 result = StringManipulation.removePunctuation('Hello, my friend. My name is Tim. What is your name?');
 console.log(result);
 
-result = StringManipulation.hasAllUniqueChars('Hello, my friend. My name is Tim. What is your name?');
+result = StringManipulation.hasAllUniqueChars('Dogs are fun.');
 console.log(result);
 // console.log(StringManipulation.hasAllUniqueChars(['a']));
 // console.log(StringManipulation.removePunctuation(['a']));
